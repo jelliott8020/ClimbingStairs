@@ -4,8 +4,8 @@ You're a rebel scout on the ice planet, Hoth. While killing time waiting for the
 Your job is to write a function 'climbingStairs' that will return the total number of ways you can reach the top.  
 
 
-**Input:** __total steps:__ an integer, total n steps to the top.
-**Output:** __step combinations possible__ 
+**Input:** _total steps:_ an integer, total n steps to the top.  
+**Output:** _step combinations possible_   
 
 **Constraints:**  
 • 0 <= totalSteps < infinity  
