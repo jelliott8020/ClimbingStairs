@@ -109,9 +109,9 @@ class Climber {
         if (n == 0) return "0";
         if (n == 1) return "1";
 
-        // if (map.containsKey(n)) {
-        //     return map.get(n).toString();
-        // }
+        if (map.containsKey(n)) {
+            return map.get(n).toString();
+        }
         
         BigInteger a = new BigInteger("1");
         BigInteger b = new BigInteger("1");
@@ -119,7 +119,7 @@ class Climber {
 
         for (int i = 2; i <= n; ++i) {
             sum = a.add(b);
-            //map.put(i, sum);
+            map.put(i, sum);
             a = b;
             b = sum;
         }
@@ -127,7 +127,6 @@ class Climber {
         return sum.toString();
     }
 }
-
 
 
 
